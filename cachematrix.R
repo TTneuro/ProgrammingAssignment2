@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCache matrix makes a special matrix where inverse is stored if calculated cacheSolve takes the inverse
 
-## Write a short comment describing this function
+## takes a matrix use $getinverse to get the inverse and $setinverse to set its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   ix <- NULL
@@ -19,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## if the inverse is not stored it calcualtes and stores the inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
